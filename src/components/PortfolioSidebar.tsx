@@ -1,4 +1,4 @@
-import { GraduationCap, User, Microscope, BookOpen, Lightbulb, Globe, Heart, FileText } from "lucide-react";
+import { GraduationCap, User, Microscope, BookOpen, Lightbulb, Globe, Heart, FileText, Award } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -17,6 +17,7 @@ const sections = [
   { id: "entrepreneurship", title: "Entrepreneurship", icon: Lightbulb },
   { id: "multicultural", title: "Multicultural", icon: Globe },
   { id: "service", title: "Service-Learning", icon: Heart },
+  { id: "highlights", title: "Journey Highlights", icon: Award },
   { id: "conclusion", title: "Concluding Remarks", icon: FileText },
 ];
 
