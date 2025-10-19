@@ -2,7 +2,6 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { PortfolioSidebar } from "@/components/PortfolioSidebar";
 import { AboutSection } from "@/components/AboutSection";
 import { CompetencySection } from "@/components/CompetencySection";
-import { HighlightsSection } from "@/components/HighlightsSection";
 import { Microscope, BookOpen, Lightbulb, Globe, Heart, FileText } from "lucide-react";
 
 const Index = () => {
@@ -258,8 +257,6 @@ const Index = () => {
               </div>
             </div>
           </CompetencySection>
-
-          <HighlightsSection />
 
           <CompetencySection
             id="conclusion"
