@@ -140,7 +140,14 @@ const Index = () => {
                         Through ASU Venture Devils, I gained mentorship, community support, funding opportunities, and workshops that shaped my entrepreneurial skills. Competing in the Ignite-Innovation Venture Challenge and the Open Pitch Series honed my ability to communicate ideas clearly and concisely. Kavvy was recognized as the Crowd-Favorite at the Open Pitch Series, earning a cash prize and valuable feedback.
                       </p>
                       <p>
-                        I also launched a podcast, Write It Out, exploring the creative and professional journey of writers, further strengthening my skills in storytelling, communication, and audience engagement.
+                        I also launched a podcast, <a 
+                          href="https://www.youtube.com/@Kavvy.literary" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline font-medium"
+                        >
+                          Write It Out
+                        </a>, exploring the creative and professional journey of writers, further strengthening my skills in storytelling, communication, and audience engagement.
                       </p>
                       <div className="mt-4 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
                         <p className="text-sm text-muted-foreground text-center font-medium">

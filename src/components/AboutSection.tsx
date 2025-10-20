@@ -186,11 +186,16 @@ export function AboutSection() {
                   and the audience.
                 </p>
 
-                <div className="mt-6 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                  <div className="flex items-center justify-center gap-3 text-muted-foreground">
-                    <Video className="h-8 w-8" />
-                    <p className="font-medium">Insert video link and photos here</p>
-                  </div>
+                <div className="mt-6">
+                  <a 
+                    href="https://youtu.be/GQPQLSi8gs0?si=4RJ2FHHgLPsOOalb" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+                  >
+                    <Video className="h-5 w-5" />
+                    <span>Watch StorySlam Performance</span>
+                  </a>
                 </div>
               </CardContent>
             </Card>
