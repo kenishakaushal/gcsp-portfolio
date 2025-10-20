@@ -3,6 +3,12 @@ import { PortfolioSidebar } from "@/components/PortfolioSidebar";
 import { AboutSection } from "@/components/AboutSection";
 import { CompetencySection } from "@/components/CompetencySection";
 import { Microscope, BookOpen, Lightbulb, Globe, Heart, FileText } from "lucide-react";
+import posterSession1 from "@/assets/Poster_Session_FSE150.jpeg";
+import posterSession2 from "@/assets/2_Poster_Session_FSE150.jpeg";
+import posterSession3 from "@/assets/3_Poster_Session_FSE150.jpeg";
+import fultonAmbassador1 from "@/assets/FULTONAMBASSADOR1.jpeg";
+import fultonAmbassador2 from "@/assets/FULTONAMBASSADOR2.jpeg";
+import fultonAmbassador3 from "@/assets/FULTONAMBASSADOR3.jpeg";
 
 const Index = () => {
   return (
@@ -56,10 +62,24 @@ const Index = () => {
                       <p>
                         As part of a team project, "Demolishing AI Biases," we developed specifications for a software tool designed to filter biased data before training AI models. Under the mentorship of Dr. Haolin Zhu, our team produced five key deliverables, including quality metrics for each milestone, combining technical rigor with ethical awareness.
                       </p>
-                      <div className="mt-4 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                        <p className="text-sm text-muted-foreground text-center font-medium">
-                          Insert picture of poster session
-                        </p>
+                      <div className="mt-4 space-y-4">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <img 
+                            src={posterSession1} 
+                            alt="Kenisha presenting FSE150 poster session" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                          <img 
+                            src={posterSession3} 
+                            alt="Demolishing Bias in AI poster" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                        </div>
+                        <img 
+                          src={posterSession2} 
+                          alt="FSE150 team at poster session" 
+                          className="w-full rounded-lg shadow-lg object-cover"
+                        />
                       </div>
                     </div>
                   </div>
@@ -271,10 +291,24 @@ const Index = () => {
                       <p>
                         Being a Fulton Ambassador strengthened my leadership, communication, and mentoring skills while reinforcing the importance of service in education. It highlighted how guiding others through discovery can be both meaningful and joyful, reflecting principles that inform my research, entrepreneurial ventures, and collaborative projects. This experience continues to inspire me to create inclusive, engaging learning environments that empower others to explore, grow, and thrive.
                       </p>
-                      <div className="mt-4 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                        <p className="text-sm text-muted-foreground text-center font-medium">
-                          Insert photos of Fulton Ambassadors
-                        </p>
+                      <div className="mt-4 space-y-4">
+                        <img 
+                          src={fultonAmbassador1} 
+                          alt="Fulton Ambassador profile card for Kenisha Kaushal" 
+                          className="w-full rounded-lg shadow-lg object-cover"
+                        />
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <img 
+                            src={fultonAmbassador2} 
+                            alt="Fulton Ambassadors tabling at campus event" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                          <img 
+                            src={fultonAmbassador3} 
+                            alt="Fulton Ambassadors wellness commitment cards" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>

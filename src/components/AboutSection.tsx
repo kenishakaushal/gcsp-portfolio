@@ -1,5 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { User, Award, Mic, Image as ImageIcon, Video } from "lucide-react";
+import { User, Award, Mic, Video } from "lucide-react";
+import myPicture from "@/assets/my_picture.jpg";
+import studentLeader from "@/assets/studentleader.jpeg";
+import storySlam1 from "@/assets/GCSP_StorySlam.jpeg";
+import storySlam2 from "@/assets/GCSP_StorySlam2.jpeg";
 
 export function AboutSection() {
   return (
@@ -15,10 +19,11 @@ export function AboutSection() {
         <Card className="p-8 mb-6">
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
-              <div className="w-48 h-48 rounded-lg bg-muted flex items-center justify-center">
-                <User className="h-24 w-24 text-muted-foreground" />
-              </div>
-              <p className="text-sm text-muted-foreground text-center mt-2">Add your photo here</p>
+              <img 
+                src={myPicture} 
+                alt="Kenisha Kaushal - Fulton Ambassador" 
+                className="w-48 h-48 rounded-lg object-cover shadow-lg"
+              />
             </div>
             
             <div className="flex-1 space-y-6">
@@ -130,11 +135,12 @@ export function AboutSection() {
                   was the mutual inspiration—guiding others while learning from their passion and ingenuity.
                 </p>
 
-                <div className="mt-6 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                  <div className="flex items-center justify-center gap-3 text-muted-foreground">
-                    <ImageIcon className="h-8 w-8" />
-                    <p className="font-medium">Insert photos here</p>
-                  </div>
+                <div className="mt-6">
+                  <img 
+                    src={studentLeader} 
+                    alt="GCSP Student Leader Journey Infographic" 
+                    className="w-full rounded-lg shadow-lg"
+                  />
                 </div>
               </CardContent>
             </Card>
@@ -186,7 +192,7 @@ export function AboutSection() {
                   and the audience.
                 </p>
 
-                <div className="mt-6">
+                <div className="mt-6 space-y-4">
                   <a 
                     href="https://youtu.be/GQPQLSi8gs0?si=4RJ2FHHgLPsOOalb" 
                     target="_blank" 
@@ -196,6 +202,19 @@ export function AboutSection() {
                     <Video className="h-5 w-5" />
                     <span>Watch StorySlam Performance</span>
                   </a>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <img 
+                      src={storySlam1} 
+                      alt="GCSP StorySlam participants group photo" 
+                      className="w-full rounded-lg shadow-lg object-cover"
+                    />
+                    <img 
+                      src={storySlam2} 
+                      alt="GCSP StorySlam event presentation" 
+                      className="w-full rounded-lg shadow-lg object-cover"
+                    />
+                  </div>
                 </div>
               </CardContent>
             </Card>
