@@ -23,56 +23,6 @@ const Index = () => {
           <AboutSection />
 
           <CompetencySection
-            id="research"
-            title="Research or Creative Project Experience"
-            icon={Microscope}
-          >
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  Project Summary
-                </h3>
-                <p className="text-foreground leading-relaxed">
-                  [Summarize your research or creative project. Include: number of semesters, who you worked with, 
-                  what you did (overview), and what you learned.]
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  Research Report/Poster
-                </h3>
-                <div className="bg-muted p-6 rounded-lg text-center">
-                  <FileText className="h-12 w-12 mx-auto mb-3 text-muted-foreground" />
-                  <p className="text-muted-foreground">
-                    [Upload your research poster or report here. Include: Introduction and Background, Methodology, 
-                    Results, Discussion, Conclusions, Future Recommendations, and References.]
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  Connection to Grand Challenge Theme
-                </h3>
-                <p className="text-foreground leading-relaxed">
-                  [Explain how your research or creative project relates to your Grand Challenge Theme.]
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  Value & Reflection
-                </h3>
-                <p className="text-foreground leading-relaxed">
-                  [Describe the value of this experience in terms of your other GCSP work, academic and/or 
-                  professional career goals.]
-                </p>
-              </div>
-            </div>
-          </CompetencySection>
-
-          <CompetencySection
             id="multidisciplinary"
             title="Multidisciplinary Competency"
             icon={BookOpen}
@@ -231,66 +181,6 @@ const Index = () => {
           </CompetencySection>
 
           <CompetencySection
-            id="multicultural"
-            title="Multicultural Competency"
-            icon={Globe}
-          >
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  First Multicultural Course/Experience
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="font-medium mb-2 text-foreground">Description</h4>
-                    <p className="text-foreground leading-relaxed">
-                      [Describe what you did and learned in your first multicultural course or experience.]
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-2 text-foreground">Connection to Theme</h4>
-                    <p className="text-foreground leading-relaxed">
-                      [Explain how this relates to your GCSP theme.]
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-2 text-foreground">Value & Reflection</h4>
-                    <p className="text-foreground leading-relaxed">
-                      [Describe the value of this experience.]
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="border-t pt-8">
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  Second Multicultural Course/Experience
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="font-medium mb-2 text-foreground">Description</h4>
-                    <p className="text-foreground leading-relaxed">
-                      [Describe what you did and learned in your second multicultural course or experience.]
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-2 text-foreground">Connection to Theme</h4>
-                    <p className="text-foreground leading-relaxed">
-                      [Explain how this relates to your GCSP theme.]
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-2 text-foreground">Value & Reflection</h4>
-                    <p className="text-foreground leading-relaxed">
-                      [Describe the value of this experience.]
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </CompetencySection>
-
-          <CompetencySection
             id="service"
             title="Service-Learning (Social Consciousness)"
             icon={Heart}
@@ -380,6 +270,116 @@ const Index = () => {
                         </p>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </CompetencySection>
+
+          <CompetencySection
+            id="research"
+            title="Research or Creative Project Experience"
+            icon={Microscope}
+          >
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
+                  Project Summary
+                </h3>
+                <p className="text-foreground leading-relaxed">
+                  [Summarize your research or creative project. Include: number of semesters, who you worked with, 
+                  what you did (overview), and what you learned.]
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
+                  Research Report/Poster
+                </h3>
+                <div className="bg-muted p-6 rounded-lg text-center">
+                  <FileText className="h-12 w-12 mx-auto mb-3 text-muted-foreground" />
+                  <p className="text-muted-foreground">
+                    [Upload your research poster or report here. Include: Introduction and Background, Methodology, 
+                    Results, Discussion, Conclusions, Future Recommendations, and References.]
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
+                  Connection to Grand Challenge Theme
+                </h3>
+                <p className="text-foreground leading-relaxed">
+                  [Explain how your research or creative project relates to your Grand Challenge Theme.]
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
+                  Value & Reflection
+                </h3>
+                <p className="text-foreground leading-relaxed">
+                  [Describe the value of this experience in terms of your other GCSP work, academic and/or 
+                  professional career goals.]
+                </p>
+              </div>
+            </div>
+          </CompetencySection>
+
+          <CompetencySection
+            id="multicultural"
+            title="Multicultural Competency"
+            icon={Globe}
+          >
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
+                  First Multicultural Course/Experience
+                </h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-medium mb-2 text-foreground">Description</h4>
+                    <p className="text-foreground leading-relaxed">
+                      [Describe what you did and learned in your first multicultural course or experience.]
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-2 text-foreground">Connection to Theme</h4>
+                    <p className="text-foreground leading-relaxed">
+                      [Explain how this relates to your GCSP theme.]
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-2 text-foreground">Value & Reflection</h4>
+                    <p className="text-foreground leading-relaxed">
+                      [Describe the value of this experience.]
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-t pt-8">
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
+                  Second Multicultural Course/Experience
+                </h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-medium mb-2 text-foreground">Description</h4>
+                    <p className="text-foreground leading-relaxed">
+                      [Describe what you did and learned in your second multicultural course or experience.]
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-2 text-foreground">Connection to Theme</h4>
+                    <p className="text-foreground leading-relaxed">
+                      [Explain how this relates to your GCSP theme.]
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-2 text-foreground">Value & Reflection</h4>
+                    <p className="text-foreground leading-relaxed">
+                      [Describe the value of this experience.]
+                    </p>
                   </div>
                 </div>
               </div>

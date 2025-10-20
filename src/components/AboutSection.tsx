@@ -25,47 +25,56 @@ export function AboutSection() {
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-[hsl(var(--heading-primary))]">Introduction</h3>
                 <div className="space-y-2 text-foreground">
-                  <p><strong>Name:</strong> [Your Name]</p>
-                  <p><strong>University:</strong> [Your University]</p>
-                  <p><strong>Major:</strong> [Your Major]</p>
-                  <p><strong>Grand Challenge Theme:</strong> [Your Theme]</p>
-                  <p><strong>Submission Date:</strong> [Semester/Year]</p>
+                  <p><strong>Name:</strong> Kenisha Kaushal</p>
+                  <p><strong>University:</strong> Arizona State University</p>
+                  <p><strong>Major:</strong> Computer Science (Software Engineering)</p>
+                  <p><strong>Grand Challenge Theme:</strong> Joy of Living</p>
+                  <p><strong>Submission Date:</strong> Spring 2027</p>
                 </div>
               </div>
               
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-[hsl(var(--heading-primary))]">About This Portfolio</h3>
-                <p className="text-foreground leading-relaxed">
-                  [Write a brief introduction to your portfolio and what it contains. Describe the NAE Grand Challenges 
-                  Scholars Program and the theme you pursued. Explain how this portfolio demonstrates your journey 
-                  through the five competency areas.]
-                </p>
+                <div className="space-y-4 text-foreground leading-relaxed">
+                  <p>
+                    When I first joined Arizona State University as a Computer Science major, I knew I wanted to do more than just learn how to code — I wanted to understand how technology could make people's lives more meaningful. The Grand Challenges Scholars Program (GCSP) became the space where that question evolved into a lifelong pursuit. The National Academy of Engineering's Grand Challenges call on students to use innovation, collaboration, and empathy to solve the world's most pressing problems. Within that vision, I chose to explore the theme "Joy of Living" — a challenge that asks us to use technology not just for efficiency or power, but for human flourishing.
+                  </p>
+                  <p>
+                    This portfolio captures my four-year journey through the GCSP framework — a process of learning to see engineering as both a technical and human-centered discipline. Across each of the five competencies — Multidisciplinary, Entrepreneurship, Multicultural Awareness, Service Learning, and Talent — I've engaged in experiences that taught me how to design for joy, connection, and ethical impact. Guided by the theme "Joy of Living," my GCSP journey reflects how I've used technology to create meaningful human experiences through innovation and empathy.
+                  </p>
+                  <p><strong>Competency Highlights:</strong></p>
+                  <ul className="space-y-2 ml-4">
+                    <li className="text-foreground leading-relaxed flex gap-2">
+                      <span className="text-[hsl(var(--primary))] mt-1">•</span>
+                      <span><strong>Talent Competency:</strong> Completed Honors Research (HON 492 & 493) under Dr. Mina Johnson, exploring how extended reality (XR) and artificial intelligence (AI) can foster more human-centered design.</span>
+                    </li>
+                    <li className="text-foreground leading-relaxed flex gap-2">
+                      <span className="text-[hsl(var(--primary))] mt-1">•</span>
+                      <span><strong>Multidisciplinary Competency:</strong> Fulfilled through FSE 150: Grand Challenges for Engineering and STS 330: Information Technology and Artificial Intelligence, connecting technical problem-solving with ethical and societal impact.</span>
+                    </li>
+                    <li className="text-foreground leading-relaxed flex gap-2">
+                      <span className="text-[hsl(var(--primary))] mt-1">•</span>
+                      <span><strong>Entrepreneurship Competency:</strong> Achieved through Venture Devils, where I developed Kavvy, a startup connecting writers with publishers and transforming creative ideas into viable ventures.</span>
+                    </li>
+                    <li className="text-foreground leading-relaxed flex gap-2">
+                      <span className="text-[hsl(var(--primary))] mt-1">•</span>
+                      <span><strong>Service Learning Competency:</strong> Contributed through Engineering Projects in Community Service (EPICS) and over 40 hours as a Fulton Ambassador, mentoring first-year students and supporting engineering outreach.</span>
+                    </li>
+                    <li className="text-foreground leading-relaxed flex gap-2">
+                      <span className="text-[hsl(var(--primary))] mt-1">•</span>
+                      <span><strong>Multicultural Competency:</strong> To be completed through the DAAD Research Internship and EPICS Abroad experience.</span>
+                    </li>
+                  </ul>
+                  <p>
+                    Ultimately, this portfolio is more than a collection of experiences — it is the story of how I learned to use code, creativity, and compassion to bring the Joy of Living to life, one thoughtful design at a time.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </Card>
 
-        <Card className="p-8 mb-6">
-          <h3 className="text-xl font-semibold mb-4 text-[hsl(var(--heading-primary))]">
-            Becoming a Grand Challenges Scholar
-          </h3>
-          <div className="space-y-4 text-foreground leading-relaxed">
-            <p>
-              [Provide an overview and reflection on your overall GCSP experience. Discuss how your coursework and 
-              experiences helped you achieve GCSP goals in each of the five competency areas.]
-            </p>
-            <p>
-              [Describe the connectivity across your experiences in the five competencies addressing your chosen 
-              Grand Challenges theme. Include specific examples and evidence from your portfolio.]
-            </p>
-            <p>
-              [Explain how the experience helped you as an engineer and prepared you for your future career plans. 
-              Share your overall opinion of your GCSP experience.]
-            </p>
-          </div>
-        </Card>
-
-        <div className="bg-gradient-to-br from-[hsl(var(--primary)/0.05)] to-[hsl(var(--accent)/0.05)] rounded-lg p-8">
+        <div className="bg-gradient-to-br from-[hsl(var(--primary)/0.05)] to-[hsl(var(--accent)/0.05)] rounded-lg p-8 mb-6">
           <div className="flex items-center gap-3 mb-6">
             <Award className="h-6 w-6 text-[hsl(var(--primary))]" />
             <h3 className="text-2xl font-bold text-[hsl(var(--heading-primary))]">
@@ -138,8 +147,8 @@ export function AboutSection() {
                     <Mic className="h-6 w-6 text-[hsl(var(--accent))]" />
                   </div>
                   <div className="flex-1">
-                    <CardTitle className="text-2xl mb-2">
-                      StorySlam Participant – GCSP
+                     <CardTitle className="text-2xl mb-2">
+                      GCSP StorySlam
                     </CardTitle>
                     <CardDescription className="text-base">
                       February 1, 2025
@@ -187,6 +196,26 @@ export function AboutSection() {
             </Card>
           </div>
         </div>
+
+        <Card className="p-8 mb-6">
+          <h3 className="text-xl font-semibold mb-4 text-[hsl(var(--heading-primary))]">
+            Becoming a Grand Challenges Scholar
+          </h3>
+          <div className="space-y-4 text-foreground leading-relaxed">
+            <p>
+              [Provide an overview and reflection on your overall GCSP experience. Discuss how your coursework and 
+              experiences helped you achieve GCSP goals in each of the five competency areas.]
+            </p>
+            <p>
+              [Describe the connectivity across your experiences in the five competencies addressing your chosen 
+              Grand Challenges theme. Include specific examples and evidence from your portfolio.]
+            </p>
+            <p>
+              [Explain how the experience helped you as an engineer and prepared you for your future career plans. 
+              Share your overall opinion of your GCSP experience.]
+            </p>
+          </div>
+        </Card>
       </div>
     </section>
   );

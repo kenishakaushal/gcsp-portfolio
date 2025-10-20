@@ -12,11 +12,11 @@ import {
 
 const sections = [
   { id: "about", title: "About Me", icon: User },
-  { id: "research", title: "Research/Talent", icon: Microscope },
   { id: "multidisciplinary", title: "Multidisciplinary", icon: BookOpen },
   { id: "entrepreneurship", title: "Entrepreneurship", icon: Lightbulb },
-  { id: "multicultural", title: "Multicultural", icon: Globe },
   { id: "service", title: "Service-Learning", icon: Heart },
+  { id: "research", title: "Talent", icon: Microscope },
+  { id: "multicultural", title: "Multicultural", icon: Globe },
   { id: "conclusion", title: "Concluding Remarks", icon: FileText },
 ];
 
