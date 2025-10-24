@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { User, Award, Mic, Video } from "lucide-react";
+import { ClickableImage } from "./ClickableImage";
 import myPicture from "@/assets/my_picture.jpg";
 import studentLeader from "@/assets/studentleader.jpeg";
 import storySlam1 from "@/assets/GCSP_StorySlam.jpeg";
@@ -19,7 +20,7 @@ export function AboutSection() {
         <Card className="p-8 mb-6">
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0">
-              <img 
+              <ClickableImage 
                 src={myPicture} 
                 alt="Kenisha Kaushal - Fulton Ambassador" 
                 className="w-48 h-48 rounded-lg object-cover shadow-lg"
@@ -136,7 +137,7 @@ export function AboutSection() {
                 </p>
 
                 <div className="mt-6">
-                  <img 
+                  <ClickableImage 
                     src={studentLeader} 
                     alt="GCSP Student Leader Journey Infographic" 
                     className="w-full rounded-lg shadow-lg"
@@ -204,12 +205,12 @@ export function AboutSection() {
                   </a>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <img 
+                    <ClickableImage 
                       src={storySlam1} 
                       alt="GCSP StorySlam participants group photo" 
                       className="w-full rounded-lg shadow-lg object-cover"
                     />
-                    <img 
+                    <ClickableImage 
                       src={storySlam2} 
                       alt="GCSP StorySlam event presentation" 
                       className="w-full rounded-lg shadow-lg object-cover"
