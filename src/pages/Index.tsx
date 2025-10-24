@@ -9,6 +9,7 @@ import posterSession3 from "@/assets/3_Poster_Session_FSE150.jpeg";
 import fultonAmbassador1 from "@/assets/FULTONAMBASSADOR1.jpeg";
 import fultonAmbassador2 from "@/assets/FULTONAMBASSADOR2.jpeg";
 import fultonAmbassador3 from "@/assets/FULTONAMBASSADOR3.jpeg";
+import kavvyPhoto from "@/assets/Kavvy.jpeg";
 
 const Index = () => {
   return (
@@ -48,10 +49,15 @@ const Index = () => {
                       <p>
                         Conversations with Dr. Bradley Greger on neural engineering highlighted the human side of innovation, complemented by studying Dr. Gail-Joon Ahn and Dr. Adam Doupe's work on cybersecurity and ethical AI. I applied these insights through reflective essays, class discussions, and my final oral presentation on "Security and Privacy Concerns in Cloud Computing Networks," connecting theoretical concepts to real-world systems.
                       </p>
-                      <div className="mt-4 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                        <p className="text-sm text-muted-foreground text-center font-medium">
-                          Insert video of presentation
-                        </p>
+                      <div className="mt-4">
+                        <a 
+                          href="https://youtu.be/jagYDxAxxDQ"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
+                        >
+                          Watch FSE 150 Presentation Video
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -169,10 +175,12 @@ const Index = () => {
                           Write It Out
                         </a>, exploring the creative and professional journey of writers, further strengthening my skills in storytelling, communication, and audience engagement.
                       </p>
-                      <div className="mt-4 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                        <p className="text-sm text-muted-foreground text-center font-medium">
-                          Insert pictures related to Kavvy
-                        </p>
+                      <div className="mt-4">
+                        <img 
+                          src={kavvyPhoto} 
+                          alt="Kavvy team at ASU Venture Devils Igniting Innovation Venture Challenge" 
+                          className="w-full rounded-lg shadow-lg object-cover"
+                        />
                       </div>
                     </div>
                   </div>
@@ -247,10 +255,15 @@ const Index = () => {
                       <p>
                         Leading this EPICS project strengthened my technical, leadership, and collaboration skills while highlighting the real-world impact of engineering. It demonstrated how technology can facilitate meaningful learning experiences, improving accessibility and decision-making for student teams. This experience reinforced my belief that engineering can be a joyful and socially conscious pursuit, bridging technical innovation with human-centered design—a perspective I carry into my research, entrepreneurial ventures, and mentorship roles.
                       </p>
-                      <div className="mt-4 p-6 bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20">
-                        <p className="text-sm text-muted-foreground text-center font-medium">
-                          Insert project GitHub link
-                        </p>
+                      <div className="mt-4">
+                        <a 
+                          href="https://github.com/kenishakaushal/OnlineDatabase_EPICS"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
+                        >
+                          View EPICS Project on GitHub
+                        </a>
                       </div>
                     </div>
                   </div>
