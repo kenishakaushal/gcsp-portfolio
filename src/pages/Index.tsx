@@ -10,6 +10,9 @@ import fultonAmbassador1 from "@/assets/FULTONAMBASSADOR1.jpeg";
 import fultonAmbassador2 from "@/assets/FULTONAMBASSADOR2.jpeg";
 import fultonAmbassador3 from "@/assets/FULTONAMBASSADOR3.jpeg";
 import kavvyPhoto from "@/assets/Kavvy.jpeg";
+import kavvySlide1 from "@/assets/Kavvy_slide1.png";
+import kavvySlide2 from "@/assets/Kavvy_slide2.png";
+import kavvySlide3 from "@/assets/Kavvy_slide3.png";
 
 const Index = () => {
   return (
@@ -175,12 +178,29 @@ const Index = () => {
                           Write It Out
                         </a>, exploring the creative and professional journey of writers, further strengthening my skills in storytelling, communication, and audience engagement.
                       </p>
-                      <div className="mt-4">
+                      <div className="mt-4 space-y-4">
                         <img 
                           src={kavvyPhoto} 
                           alt="Kavvy team at ASU Venture Devils Igniting Innovation Venture Challenge" 
                           className="w-full rounded-lg shadow-lg object-cover"
                         />
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                          <img 
+                            src={kavvySlide1} 
+                            alt="Kavvy presentation slide - Recognizing literary talent" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                          <img 
+                            src={kavvySlide2} 
+                            alt="Kavvy presentation slide - Keni's Story about publishing challenges" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                          <img 
+                            src={kavvySlide3} 
+                            alt="Kavvy presentation slide - Solution bridging authors and publishers" 
+                            className="w-full rounded-lg shadow-lg object-cover"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
