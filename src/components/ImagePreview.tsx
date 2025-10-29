@@ -22,7 +22,7 @@ export const ImagePreview = ({ src, alt, isOpen, onClose }: ImagePreviewProps) =
         <img
           src={src}
           alt={alt}
-          className="w-full h-full object-contain"
+          className="max-w-full max-h-[95vh] object-contain"
         />
       </DialogContent>
     </Dialog>
