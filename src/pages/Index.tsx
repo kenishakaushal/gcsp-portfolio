@@ -408,53 +408,64 @@ const Index = () => {
           >
             <div className="space-y-8">
               <div>
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  First Multicultural Course/Experience
+                <h3 className="text-xl font-semibold mb-4 text-[hsl(var(--heading-primary))]">
+                  DAAD RISE Germany Research Internship
                 </h3>
-                <div className="space-y-4">
+                <div className="space-y-6">
                   <div>
-                    <h4 className="font-medium mb-2 text-foreground">Description</h4>
+                    <h4 className="text-lg font-medium mb-3 text-[hsl(var(--heading-primary))]">Description</h4>
                     <p className="text-foreground leading-relaxed">
-                      [Describe what you did and learned in your first multicultural course or experience.]
+                      From May to August 2026, I was a Research Intern at Hochschule Darmstadt (h_da) in Darmstadt, Germany, through the DAAD RISE Germany program. I was one of 350 students selected from 3,149 applicants across North America, the United Kingdom, and Ireland. I worked on FARMWISE, an EU-funded project that makes data visualization easier to use by letting people ask questions in plain language. I built and tested semantic search and ranking pipelines that match a user's question to the right chart. I compared keyword-based methods (TF-IDF, BM25) with embedding-based models (SBERT and other transformers), ran experiments on real user queries, and studied where the models failed. One of my biggest findings was domain mismatch: a model trained on one kind of data can struggle badly in another setting. Beyond the lab, I lived in Germany for a summer, traveled around Europe, and attended the DAAD RISE meeting in Heidelberg. There I met students from around the world and heard about their research.
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-2 text-foreground">Connection to Theme</h4>
+                    <h4 className="text-lg font-medium mb-3 text-[hsl(var(--heading-primary))]">Connection to Theme</h4>
                     <p className="text-foreground leading-relaxed">
-                      [Explain how this relates to your GCSP theme.]
+                      My GCSP theme, Joy of Living, is about using technology to make everyday life easier, richer, and more meaningful. FARMWISE works toward that by removing a barrier between people and information. Users don't need technical skills to read data. They can just ask a question. This experience also showed me that a tool only brings joy if it fits the people using it. The domain mismatch I studied mirrors a cultural lesson: a solution that works in one context can fail in another if it ignores who the users are and how they think. Working on an international project with an international team made me see that good design has to account for different languages, backgrounds, and expectations.
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-2 text-foreground">Value & Reflection</h4>
+                    <h4 className="text-lg font-medium mb-3 text-[hsl(var(--heading-primary))]">Value & Reflection</h4>
                     <p className="text-foreground leading-relaxed">
-                      [Describe the value of this experience.]
+                      Coming from software engineering, I was used to building toward a clear, defined outcome. Research in Germany taught me to embrace uncertainty. When an experiment didn't work, it wasn't a failure but the starting point for the next question. Living and working abroad also pushed me out of my comfort zone in a new way. I had to adjust to a new academic culture, a new city, and new people, all while doing real research. Meeting other RISE scholars in Heidelberg showed me how global research really is, and how much we gain from hearing other perspectives. This experience strengthened my interest in NLP and information retrieval. It also left me with a mindset I will carry into my career: question your assumptions, test them, and always design with the real user in mind.
                     </p>
                   </div>
                 </div>
               </div>
 
               <div className="border-t pt-8">
-                <h3 className="text-lg font-semibold mb-3 text-[hsl(var(--heading-primary))]">
-                  Second Multicultural Course/Experience
+                <h3 className="text-xl font-semibold mb-4 text-[hsl(var(--heading-primary))]">
+                  My Journey as an International Student
                 </h3>
-                <div className="space-y-4">
+                <div className="space-y-6">
                   <div>
-                    <h4 className="font-medium mb-2 text-foreground">Description</h4>
+                    <h4 className="text-lg font-medium mb-3 text-[hsl(var(--heading-primary))]">Description</h4>
                     <p className="text-foreground leading-relaxed">
-                      [Describe what you did and learned in your second multicultural course or experience.]
+                      I left my home country at 17 to study Computer Science at ASU. As a third-culture kid who grew up between Dubai and India, I thought I knew what adapting to a new culture meant, but moving to the United States taught me much more. My first exposure was E2 camp, where I made friends from different cultures and started to understand American social norms and ways of life. Over four years, I learned to live independently. I signed leases, cooked for myself, managed my money, figured out bus schedules, and handled visa paperwork, all while missing my family across time zones. I explored Arizona from the Grand Canyon to Arcosanti, traveled to California, Florida, and New Mexico, and saw how different each state can be. In my junior year, I went back to E2 as a counselor and mentored new students who had the same questions and fears I once had. I also faced limiting beliefs from my upbringing about artistic pursuits. I took Jazz I for credit, added a dance minor for a few semesters, and learned that I don't have to choose between being an engineer and being an artist.
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-2 text-foreground">Connection to Theme</h4>
+                    <h4 className="text-lg font-medium mb-3 text-[hsl(var(--heading-primary))]">Connection to Theme</h4>
                     <p className="text-foreground leading-relaxed">
-                      [Explain how this relates to your GCSP theme.]
+                      This experience connects directly to Joy of Living because it taught me what joy, belonging, and well-being really look like in daily life. I learned that independence is not just financial. It also means caring for my physical, emotional, and mental health. Being an international student also showed me how many everyday systems are built for people who already know how they work. Leases, transit, visas, and even club auditions can feel very different when you are new to a culture. That insight shapes how I think about engineering. Technology that improves quality of life has to work for people who aren't the "default" user, including newcomers, people from different cultures, and people facing unfamiliar systems. It also connects to my EPICS project, where I helped build a database to make study abroad programs easier for ASU students to navigate.
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-medium mb-2 text-foreground">Value & Reflection</h4>
+                    <h4 className="text-lg font-medium mb-3 text-[hsl(var(--heading-primary))]">Value & Reflection</h4>
                     <p className="text-foreground leading-relaxed">
-                      [Describe the value of this experience.]
+                      Looking back, I came to the United States for a degree, but I built a life that feels like my own. This experience gave me empathy for people going through big transitions, and it made me a better mentor, whether as an E2 counselor, a Fulton Ambassador, or a GCSP Student Leader. It also taught me to question beliefs I had carried without noticing and to make room for every side of who I am. Ironically, moving away from home helped me appreciate the diversity within my own culture too. Most of all, I learned that home doesn't have to be a place I leave behind. It can be something I create wherever life takes me. As an engineer, I want to build technology that helps other people feel that same sense of belonging.
                     </p>
+                  </div>
+                  <div className="mt-6">
+                    <a
+                      href="https://kenisha-gcsp-multicultural.lovable.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
+                    >
+                      <Globe className="h-5 w-5" />
+                      <span>Explore My Journey as an International Student</span>
+                    </a>
                   </div>
                 </div>
               </div>
