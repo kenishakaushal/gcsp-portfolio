@@ -14,6 +14,9 @@ import kavvyPhoto from "@/assets/Kavvy.jpeg";
 import kavvySlide1 from "@/assets/Kavvy_slide1.png";
 import kavvySlide2 from "@/assets/Kavvy_slide2.png";
 import kavvySlide3 from "@/assets/Kavvy_slide3.png";
+import daadRiseGroup from "@/assets/daad_rise_group.png.asset.json";
+import daadRiseAllScholars from "@/assets/daad_rise_all_scholars.png.asset.json";
+import daadRiseKenisha from "@/assets/daad_rise_kenisha.png.asset.json";
 
 const Index = () => {
   return (
@@ -429,6 +432,25 @@ const Index = () => {
                     <p className="text-foreground leading-relaxed">
                       Coming from software engineering, I was used to building toward a clear, defined outcome. Research in Germany taught me to embrace uncertainty. When an experiment didn't work, it wasn't a failure but the starting point for the next question. Living and working abroad also pushed me out of my comfort zone in a new way. I had to adjust to a new academic culture, a new city, and new people, all while doing real research. Meeting other RISE scholars in Heidelberg showed me how global research really is, and how much we gain from hearing other perspectives. This experience strengthened my interest in NLP and information retrieval. It also left me with a mindset I will carry into my career: question your assumptions, test them, and always design with the real user in mind.
                     </p>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <ClickableImage
+                      src={daadRiseAllScholars.url}
+                      alt="DAAD RISE scholars group photo in Germany"
+                      className="w-full rounded-lg shadow-lg object-cover"
+                    />
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <ClickableImage
+                        src={daadRiseGroup.url}
+                        alt="Kenisha with fellow DAAD RISE scholars"
+                        className="w-full rounded-lg shadow-lg object-cover"
+                      />
+                      <ClickableImage
+                        src={daadRiseKenisha.url}
+                        alt="Kenisha Kaushal at the DAAD RISE meeting"
+                        className="w-full rounded-lg shadow-lg object-cover"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
